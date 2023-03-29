@@ -234,11 +234,30 @@ width: 100%;
   width: 250px;
   height: 30px;
   border-radius: 4px;
-  
   font-size: 15px;
   color: white;
 }
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  
+}
 
+a .link {
+ 
+  font-size: 15px;
+ 
+  
+}
+
+.link:hover{
+  border-bottom: 1px solid black;
+}
+
+.cidades{
+  width: 100%;
+}
 #caixa-frete {
   /* position: absolute;
   top: 60%;
@@ -399,6 +418,8 @@ header{
 width: 100%;
 padding: 10px;
 }
+
+
 }
 
 @media (max-width: 1215px) {
@@ -447,5 +468,7 @@ padding: 10px;
   .nav-2 {
     padding: 0;
   }
+
+
 }
 
